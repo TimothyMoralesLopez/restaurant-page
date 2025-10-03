@@ -1,1 +1,3 @@
 # restaurant-page
+
+This is my Restaurant Page Project. In this project, I will utilize all that I've learned so far about npm and webpack. I am still not completely sure what everything is and how everything works, but I feel like I can learn a lot more easily by doing and actually using the programs. Once completed, I will have created a dynamic web page that renders the document body elements using JavaScript. 
