@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #E5AA70; 
+    text-align: center;
+    background-image: url(./chocolate-background.png); 
+}
+
+.home-div > div {
+    border: 5px solid #490206; 
+    padding:0px; 
+    margin: 20px; 
+}
+
+#content {
+}
+
+.home-div {
+    border-radius: 25px; 
+    background-color: #7B3F00;
+    padding:10px; 
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-div > p {
+    padding:15px; 
+}
+
+h2 {
+    padding:15px;  
+}
+
+.hours-div > ul {
+    list-style-type: none;
+    padding:15px; 
+}
+
+.address-div > p {
+    padding:15px; 
+}
