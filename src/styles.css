@@ -10,6 +10,16 @@ body {
     background-image: url(./chocolate-background.png); 
 }
 
+nav {
+    padding:20px;
+}
+
+nav > button {
+    margin:10px; 
+    height: 30px;
+    width: 50px;
+}
+
 .home-div > div {
     border: 5px solid #490206; 
     padding:0px; 
