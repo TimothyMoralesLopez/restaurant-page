@@ -1,4 +1,4 @@
-function initialPageLoad() {
+function loadInitialPage() {
     const contentDiv = document.querySelector("#content"); 
 
     const homeDiv = document.createElement("div");
@@ -65,4 +65,4 @@ function initialPageLoad() {
     contentDiv.append(homeDiv); 
 }
 
-export { initialPageLoad }; 
+export { loadInitialPage }; 

@@ -1,6 +1,6 @@
-function emptyContent() {
+function emptyPage() {
     const contentDiv = document.querySelector("#content");
     contentDiv.textContent = ""; 
 }
 
-export { emptyContent }; 
+export { emptyPage }; 

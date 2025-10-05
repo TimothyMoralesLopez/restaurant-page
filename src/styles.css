@@ -7,7 +7,7 @@
 body {
     color: #E5AA70; 
     text-align: center;
-    background-image: url(./chocolate-background.png); 
+    background-image: url(./chocolate-background.jpg);
 }
 
 nav {
@@ -20,22 +20,19 @@ nav > button {
     width: 50px;
 }
 
-.home-div > div {
-    border: 5px solid #490206; 
-    padding:0px; 
-    margin: 20px; 
-}
-
-#content {
-}
-
-.home-div {
+.home-div, .menu-div, .about-div {
     border-radius: 25px; 
     background-color: #7B3F00;
     padding:10px; 
     margin: 20px 50px;
     display: flex;
     flex-direction: column;
+}
+
+.home-div > div {
+    border: 5px solid #490206; 
+    padding:0px; 
+    margin: 20px; 
 }
 
 .info-div > p {
@@ -53,4 +50,15 @@ h2 {
 
 .address-div > p {
     padding:15px; 
+}
+
+img {
+    height:250px;
+    width:250px; 
+}
+
+.menu-div > div {
+    border: 5px solid #490206; 
+    padding:0px; 
+    margin: 20px; 
 }
