@@ -13,6 +13,9 @@ function loadMenuPage() {
 
     const milkChocolateDiv = document.createElement("div");
     milkChocolateDiv.classList.add("milk-chocolate-div"); 
+
+    const milkChocolateHeading = document.createElement("h2");
+    milkChocolateHeading.textContent = "Milk Chocolate Ganache Truffles"; 
     
     const milkChocolateImage = document.createElement("img");
     milkChocolateImage.src = milkChocolateTrufflesImage;
@@ -22,10 +25,13 @@ function loadMenuPage() {
     const milkChocolatePrice = document.createElement("p");
     milkChocolatePrice.textContent = "$5.00"; 
 
-    milkChocolateDiv.append(milkChocolateImage, milkChocolatePara, milkChocolatePrice); 
+    milkChocolateDiv.append(milkChocolateHeading, milkChocolateImage, milkChocolatePara, milkChocolatePrice); 
 
     const strawberryChocolateDiv = document.createElement("div");
     strawberryChocolateDiv.classList.add("strawberry-chocolate-div"); 
+
+    const strawberryChocolateHeading = document.createElement("h2");
+    strawberryChocolateHeading.textContent = "Strawberry Dark Chocolate Truffles";
 
     const strawberryChocolateImage = document.createElement("img");
     strawberryChocolateImage.src = strawberryChocolateTrufflesImage;
@@ -35,10 +41,13 @@ function loadMenuPage() {
     const strawberryChocolatePrice = document.createElement("p");
     strawberryChocolatePrice.textContent = "$5.00"; 
 
-    strawberryChocolateDiv.append(strawberryChocolateImage, strawberryChocolatePara, strawberryChocolatePrice); 
+    strawberryChocolateDiv.append(strawberryChocolateHeading, strawberryChocolateImage, strawberryChocolatePara, strawberryChocolatePrice); 
 
     const raspberryChocolateDiv = document.createElement("div");
     raspberryChocolateDiv.classList.add("raspberry-chocolate-div"); 
+
+    const raspberryChocolateHeading = document.createElement("h2");
+    raspberryChocolateHeading.textContent = "Raspberry Dark Chocolate Truffles (Dairy-Free)"; 
 
     const raspberryChocolateImage = document.createElement("img");
     raspberryChocolateImage.src = raspberryChocolateTrufflesImage;
@@ -48,7 +57,7 @@ function loadMenuPage() {
     const raspberryChocolatePrice = document.createElement("p");
     raspberryChocolatePrice.textContent = "$5.00"; 
 
-    raspberryChocolateDiv.append(raspberryChocolateImage, raspberryChocolatePara, raspberryChocolatePrice); 
+    raspberryChocolateDiv.append(raspberryChocolateHeading, raspberryChocolateImage, raspberryChocolatePara, raspberryChocolatePrice); 
 
     menuDiv.append(menuHeading, milkChocolateDiv, strawberryChocolateDiv, raspberryChocolateDiv); 
 

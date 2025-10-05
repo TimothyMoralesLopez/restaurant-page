@@ -2,7 +2,7 @@
 
 This is my Restaurant Page Project. In this project, I will utilize all that I've learned so far about npm and webpack. I am still not completely sure what everything is and how everything works, but I feel like I can learn a lot more easily by doing and actually using the programs. Once completed, I will have created a dynamic web page that renders the document body elements using JavaScript. 
 
-Attribution:
+Attributions:
 
 Chocolate Background PNG by Maryam Sicard on Unsplash
 Link: https://unsplash.com/photos/a-close-up-of-a-chocolate-cake-with-chocolate-icing-wL3b7T_ZcDY

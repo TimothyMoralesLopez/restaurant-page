@@ -2,6 +2,7 @@ import "./styles.css";
 import { loadInitialPage } from "./initial.js";
 import { emptyPage } from "./empty.js";
 import { loadMenuPage } from "./menu.js";
+import { loadAboutPage } from "./about.js";
 
 const homeButton = document.querySelector(".home-button");
 homeButton.addEventListener("click", () => {
@@ -18,6 +19,7 @@ menuButton.addEventListener("click", () => {
 const aboutButton = document.querySelector(".about-button");
 aboutButton.addEventListener("click", () => {
     emptyPage();
+    loadAboutPage();
 });
 
 loadInitialPage(); 

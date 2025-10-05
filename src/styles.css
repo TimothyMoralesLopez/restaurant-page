@@ -18,6 +18,10 @@ nav > button {
     margin:10px; 
     height: 30px;
     width: 50px;
+    color: #E5AA70; 
+    background-color: #490206;
+    border-radius: 10px; 
+    border:none; 
 }
 
 .home-div, .menu-div, .about-div {
@@ -29,13 +33,13 @@ nav > button {
     flex-direction: column;
 }
 
-.home-div > div {
+.home-div > div, .menu-div > div, .about-div > div {
     border: 5px solid #490206; 
     padding:0px; 
     margin: 20px; 
 }
 
-.info-div > p {
+p {
     padding:15px; 
 }
 
@@ -48,17 +52,7 @@ h2 {
     padding:15px; 
 }
 
-.address-div > p {
-    padding:15px; 
-}
-
 img {
     height:250px;
     width:250px; 
-}
-
-.menu-div > div {
-    border: 5px solid #490206; 
-    padding:0px; 
-    margin: 20px; 
 }
