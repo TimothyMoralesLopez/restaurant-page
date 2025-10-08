@@ -2,6 +2,8 @@
 
 This is my Restaurant Page Project. In this project, I will utilize all that I've learned so far about npm and webpack. I am still not completely sure what everything is and how everything works, but I feel like I can learn a lot more easily by doing and actually using the programs. Once completed, I will have created a dynamic web page that renders the document body elements using JavaScript. 
 
+This is my Restaurant Page Project - completed! This project looked intimidating at first glance, but then once I actually sat down and came up with a plan of how I was going to get this done, I was able to envision a clear course of action. Once I got the logic and syntax down for the first initial page module, the rest came naturally. I also think my CSS skills have maybe improved since the last project I really utilized them. I hope to continue improving in the next projects. 
+
 Attributions:
 
 Chocolate Background PNG by Maryam Sicard on Unsplash

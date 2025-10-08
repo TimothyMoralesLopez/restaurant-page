@@ -1,6 +1,6 @@
 import "./styles.css";
-import { loadInitialPage } from "./initial.js";
 import { emptyPage } from "./empty.js";
+import { loadInitialPage } from "./initial.js";
 import { loadMenuPage } from "./menu.js";
 import { loadAboutPage } from "./about.js";
 
